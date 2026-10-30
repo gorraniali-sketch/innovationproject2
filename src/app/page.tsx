@@ -81,12 +81,26 @@ export default function Home() {
             </a>
           </nav>
 
-          <a
-            className="inline-flex min-h-11 items-center justify-center rounded-lg bg-[#17634a] px-4 text-sm font-semibold text-white transition-colors hover:bg-[#104d39] sm:px-5"
-            href="#how-it-works"
-          >
-            شروع ایده‌یابی
-          </a>
+          <div className="flex items-center gap-3">
+            <a
+              className="text-xs font-semibold text-[#32634d] transition-colors hover:text-[#174a3a] sm:text-sm"
+              href="/auth/sign-in"
+            >
+              ورود
+            </a>
+            <a
+              className="text-xs font-semibold text-[#32634d] transition-colors hover:text-[#174a3a] sm:text-sm"
+              href="/auth/sign-up"
+            >
+              ثبت‌نام
+            </a>
+            <a
+              className="inline-flex min-h-11 items-center justify-center rounded-lg bg-[#17634a] px-4 text-sm font-semibold text-white transition-colors hover:bg-[#104d39] sm:px-5"
+              href="/ideas/new"
+            >
+              شروع ایده‌یابی
+            </a>
+          </div>
         </div>
       </header>
 
@@ -115,7 +129,7 @@ export default function Home() {
               <div className="mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
                 <a
                   className="inline-flex min-h-12 items-center justify-center rounded-lg bg-[#17634a] px-6 font-semibold text-white transition-colors hover:bg-[#104d39]"
-                  href="#how-it-works"
+                  href="/ideas/new"
                 >
                   ایده‌ام را پرورش می‌دهم
                 </a>
@@ -283,7 +297,7 @@ export default function Home() {
             </div>
             <a
               className="inline-flex min-h-12 shrink-0 items-center justify-center rounded-lg bg-white px-6 font-semibold text-[#174a3a] transition-colors hover:bg-[#edf3ed]"
-              href="#how-it-works"
+              href="/ideas/new"
             >
               شروع ایده‌یابی
             </a>
